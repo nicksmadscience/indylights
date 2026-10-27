@@ -1,0 +1,13 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>scenes</h1>
+        <ul>
+            {% for scene in scenes %}
+            <li><a href="?s={{ scene }}">{{ scene }}</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
